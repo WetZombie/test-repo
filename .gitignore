@@ -1,0 +1,56 @@
+
+# Keil Project Files
+*.uvgui.*
+*.uvopt*
+__pycache__/
+*.pyc
+
+# Compiled Object files
+*.o
+*.d
+*.crf
+*.lnp
+*.mpf
+*.htm
+*.axf
+*.elf
+*.bin
+*.hex
+
+# Keil Debug Files
+*.dbgconf
+*.dwp
+*.uvproj*.bak
+*.uvopt*.bak
+
+# Keil Build Directories
+RTE/
+Listings/
+Objects/
+DebugConfig/
+
+# Keil Miscellaneous
+*.tra
+*.ini
+*.scvd
+*.or
+*.i
+*.__i
+*.axf
+*.elf
+*.bin
+*.hex
+
+# STM32CubeMX
+.mxproject
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db

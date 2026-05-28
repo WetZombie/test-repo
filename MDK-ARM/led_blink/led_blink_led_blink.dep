@@ -1,0 +1,152 @@
+Dependencies for Project 'led_blink', Target 'led_blink': (DO NOT MODIFY !)
+F (startup_stm32l031xx.s)(0x69DDD9AC)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_led_blink-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32L031xx SETA 1"--list startup_stm32l031xx.lst --xref -o led_blink\startup_stm32l031xx.o --depend led_blink\startup_stm32l031xx.d)
+F (../Core/Src/main.c)(0x6A1647E0)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_led_blink-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L031xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DMSI_VALUE="2097000" -DHSI_VALUE="16000000" -DLSI_VALUE="37000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32L031xx-o led_blink\main.o --omf_browse led_blink\main.crf --depend led_blink\main.d)
+I (../Core/Inc/main.h)(0x69DD9676)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_crs.h)(0x68F8467F)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68F84669)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68F84669)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x68F8467E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_rcc.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_bus.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_system.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_exti.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_cortex.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_utils.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_pwr.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_dma.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_gpio.h)(0x68F8467F)
+I (../Core/Inc/gpio.h)(0x694242FB)
+I (../Core/Inc/led_effects.h)(0x6A1648A9)
+F (../Core/Src/gpio.c)(0x69DDD9AB)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_led_blink-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L031xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DMSI_VALUE="2097000" -DHSI_VALUE="16000000" -DLSI_VALUE="37000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32L031xx-o led_blink\gpio.o --omf_browse led_blink\gpio.crf --depend led_blink\gpio.d)
+I (../Core/Inc/gpio.h)(0x694242FB)
+I (../Core/Inc/main.h)(0x69DD9676)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_crs.h)(0x68F8467F)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68F84669)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68F84669)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x68F8467E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_rcc.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_bus.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_system.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_exti.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_cortex.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_utils.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_pwr.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_dma.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_gpio.h)(0x68F8467F)
+F (../Core/Src/stm32l0xx_it.c)(0x694242FB)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_led_blink-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L031xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DMSI_VALUE="2097000" -DHSI_VALUE="16000000" -DLSI_VALUE="37000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32L031xx-o led_blink\stm32l0xx_it.o --omf_browse led_blink\stm32l0xx_it.crf --depend led_blink\stm32l0xx_it.d)
+I (../Core/Inc/main.h)(0x69DD9676)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_crs.h)(0x68F8467F)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68F84669)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68F84669)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x68F8467E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_rcc.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_bus.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_system.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_exti.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_cortex.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_utils.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_pwr.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_dma.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_gpio.h)(0x68F8467F)
+I (../Core/Inc/stm32l0xx_it.h)(0x694242FB)
+F (..\Core\Src\led_effects.c)(0x6A1647CF)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_led_blink-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L031xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DMSI_VALUE="2097000" -DHSI_VALUE="16000000" -DLSI_VALUE="37000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32L031xx-o led_blink\led_effects.o --omf_browse led_blink\led_effects.crf --depend led_blink\led_effects.d)
+I (../Core/Inc/led_effects.h)(0x6A1648A9)
+I (../Core/Inc/main.h)(0x69DD9676)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_crs.h)(0x68F8467F)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68F84669)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68F84669)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x68F8467E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_rcc.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_bus.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_system.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_exti.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_cortex.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_utils.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_pwr.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_dma.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_gpio.h)(0x68F8467F)
+I (../Core/Inc/gpio.h)(0x694242FB)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_gpio.c)(0x68F8467F)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_led_blink-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L031xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DMSI_VALUE="2097000" -DHSI_VALUE="16000000" -DLSI_VALUE="37000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32L031xx-o led_blink\stm32l0xx_ll_gpio.o --omf_browse led_blink\stm32l0xx_ll_gpio.crf --depend led_blink\stm32l0xx_ll_gpio.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_gpio.h)(0x68F8467F)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68F84669)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68F84669)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x68F8467E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_bus.h)(0x68F8467F)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_pwr.c)(0x68F8467F)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_led_blink-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L031xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DMSI_VALUE="2097000" -DHSI_VALUE="16000000" -DLSI_VALUE="37000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32L031xx-o led_blink\stm32l0xx_ll_pwr.o --omf_browse led_blink\stm32l0xx_ll_pwr.crf --depend led_blink\stm32l0xx_ll_pwr.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_pwr.h)(0x68F8467F)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68F84669)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68F84669)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x68F8467E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_bus.h)(0x68F8467F)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_exti.c)(0x68F8467F)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_led_blink-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L031xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DMSI_VALUE="2097000" -DHSI_VALUE="16000000" -DLSI_VALUE="37000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32L031xx-o led_blink\stm32l0xx_ll_exti.o --omf_browse led_blink\stm32l0xx_ll_exti.crf --depend led_blink\stm32l0xx_ll_exti.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_exti.h)(0x68F8467F)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68F84669)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68F84669)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x68F8467E)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_rcc.c)(0x68F8467F)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_led_blink-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L031xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DMSI_VALUE="2097000" -DHSI_VALUE="16000000" -DLSI_VALUE="37000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32L031xx-o led_blink\stm32l0xx_ll_rcc.o --omf_browse led_blink\stm32l0xx_ll_rcc.crf --depend led_blink\stm32l0xx_ll_rcc.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_rcc.h)(0x68F8467F)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68F84669)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68F84669)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x68F8467E)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_utils.c)(0x68F8467F)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_led_blink-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L031xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DMSI_VALUE="2097000" -DHSI_VALUE="16000000" -DLSI_VALUE="37000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32L031xx-o led_blink\stm32l0xx_ll_utils.o --omf_browse led_blink\stm32l0xx_ll_utils.crf --depend led_blink\stm32l0xx_ll_utils.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_rcc.h)(0x68F8467F)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68F84669)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68F84669)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x68F8467E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_utils.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_system.h)(0x68F8467F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_ll_pwr.h)(0x68F8467F)
+F (../Core/Src/system_stm32l0xx.c)(0x68F8467E)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_led_blink-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L031xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DMSI_VALUE="2097000" -DHSI_VALUE="16000000" -DLSI_VALUE="37000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32L031xx-o led_blink\system_stm32l0xx.o --omf_browse led_blink\system_stm32l0xx.crf --depend led_blink\system_stm32l0xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h)(0x68F8467E)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68F84669)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68F84669)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68F84669)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x68F8467E)

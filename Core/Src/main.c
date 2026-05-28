@@ -102,7 +102,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     LED_Effects_Process();
-    LL_mDelay(100);
+    LL_mDelay(1);
   }
   /* USER CODE END 3 */
 }
